@@ -1,1 +1,1 @@
-# Git-intro
+# Git-intro light
