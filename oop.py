@@ -24,23 +24,30 @@ class Animal():
 # a.description()
 # b.description()
 class School():
+    uname="University"
+
+
     def __init__(self,name,age):
         self.name=name
         self.age=age
-    def describe(self):
-        print("This is a {}".format(self.name))
+    def describe(self, height):
+        print("This is a {} and his height is {}".format(self.name,height))
     def know(self):
         print("The {} is {} years old".format(self.name, self.age))
 
 a=School("director",56)
-b=School("student",14)
-c=School("teacher",34)
-a.describe()
-b.describe()
-c.describe()
-b.know()
-a.know()
-c.know()
+# b=School("student",14)
+# c=School("teacher",34)
+# print(a.name)
+# print(a.uname)
+
+a.describe("tall")
+# b.describe()
+# c.describe()
+# b.know()
+# a.know()
+# c.know()
+
         
 
   
