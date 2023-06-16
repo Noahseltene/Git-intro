@@ -35,19 +35,37 @@ class School():
     def know(self):
         print("The {} is {} years old".format(self.name, self.age))
 
-a=School("director",56)
+# a=School("director",56)
 # b=School("student",14)
 # c=School("teacher",34)
 # print(a.name)
 # print(a.uname)
 
-a.describe("tall")
+# a.describe("tall")
 # b.describe()
 # c.describe()
 # b.know()
 # a.know()
 # c.know()
 
+class Car():
+    def __init__(self,model,color):
+        self.color=color
+        self.model=model
+    def display(self):
+        print("Type of the car is {} and its {} ".format(self.model, self.color))
+    def colour(self):
+        print("The car is {}".format(self.color))
+f=Car("Toyota","Black")
+d=Car("Nissan","Red")
+r=Car("Ford","Silver")
+
+f.display()
+d.display()
+r.display()
+# f.colour()
+# d.colour()
+# r.colour()
         
 
   
